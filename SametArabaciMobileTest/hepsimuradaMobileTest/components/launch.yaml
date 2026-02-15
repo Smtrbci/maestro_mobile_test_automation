@@ -1,0 +1,7 @@
+appId: com.pozitron.hepsiburada
+---
+- launchApp:
+    clearState: true
+
+- doubleTapOn:
+    point: 3%,7%

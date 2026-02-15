@@ -1,0 +1,17 @@
+appId: com.pozitron.hepsiburada
+---
+# İlk ürün seç
+- tapOn:
+    id: productBoxTitle
+
+# Sepete ekle
+- tapOn:
+    id: pdpAddToCart
+
+# Popup -> Sepete git
+- doubleTapOn: Sepete git
+
+# navigation bar’dan sepete git
+- tapOn:
+    id: navigation_bar_item_icon_container
+    index: 2

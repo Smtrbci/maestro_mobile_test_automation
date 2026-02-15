@@ -1,0 +1,22 @@
+appId: com.pozitron.hepsiburada
+---
+- runFlow: ../components/launch.yaml
+
+# Home -> Search
+- runFlow:
+    file: ../pages/home.yaml
+    env:
+      QUERY: "Adidas Ayakkabi"
+
+# Search -> Filtres
+- runFlow:
+    file: ../pages/filters.yaml
+    env:
+      MIN_PRICE: "3000"
+      MAX_PRICE: "5000"
+
+# PDP -> Cart
+- runFlow: ../pages/pdp.yaml
+
+# Cart
+- runFlow: ../pages/cart.yaml

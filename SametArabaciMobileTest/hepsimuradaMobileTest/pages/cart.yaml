@@ -1,0 +1,9 @@
+appId: com.pozitron.hepsiburada
+---
+- assertVisible:
+    id: productName
+    index: 0
+
+- assertVisible:
+    id: product_price
+    index: 0

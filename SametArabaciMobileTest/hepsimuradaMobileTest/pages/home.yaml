@@ -1,0 +1,11 @@
+appId: com.pozitron.hepsiburada
+---
+- assertVisible: "Ürün, kategori veya marka ara"
+- tapOn: "Ürün, kategori veya marka ara"
+
+# Türkçe karakter sorunu için ASCII yapılması
+- inputText: "${QUERY}"
+
+- tapOn:
+    text: adidas ayakkabı
+    index: 1

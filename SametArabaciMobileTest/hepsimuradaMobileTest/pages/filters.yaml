@@ -1,0 +1,48 @@
+appId: com.pozitron.hepsiburada
+---
+- doubleTapOn:
+    point: 4%,33%
+
+# Beden
+- tapOn: Beden
+- tapOn:
+    id: cbMultiSelection
+- tapOn:
+    id: btnApply
+
+# Cinsiyet
+- tapOn: Cinsiyet
+- tapOn:
+    id: cbMultiSelection
+- tapOn:
+    id: btnApply
+
+# Fiyat Aralığı
+- tapOn: Fiyat Aralığı
+
+- tapOn:
+    id: clMinPrice
+- inputText: "${MIN_PRICE}"
+
+- tapOn:
+    id: clMaxPrice
+- inputText: "${MAX_PRICE}"
+
+# Numerik klavye kapanışı
+#- tapOn:
+#id: back
+
+- tapOn:
+    id: btnApply
+
+# Renk
+- doubleTapOn: Renk
+- tapOn:
+    id: cbMultiSelection
+    index: 1
+- tapOn:
+    id: btnApply
+
+- doubleTapOn:
+    id: btnApply
+    delay: 100
